@@ -1,1 +1,127 @@
-<h1>ESTA ES LA PAGINA WEB DE HUGO.</h1>  
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="estilo de la comida.css">
+    <title>El Rincón de Hugo 😘 - Blog de Recetas</title>
+</head>
+<body>
+    <header>
+        <h1>El Rincón de Hugo 😘</h1>
+        <p>Las mejores recetas caseras</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#recetas">Recetas</a></li>
+            <li><a href="#newsletter">Newsletter</a></li>
+            <li><a href="#calories-section">tabla de calorias</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <main class="container">
+        <section id="recetas">
+            <article class="recipe-card">
+            <h2>🐉Ramen de goku🐉</h2>
+                <img src="goku cocinero.jpg" alt="🐉Ramen de goku🐉" class="recipe-image">
+                <h3>Ingredientes:</h3>
+                <ul>
+                    <li>2 u. zanahorias cortadas en trozos grandes 🥕</li>
+                    <li>2 u. cebollas cortadas en trozos grandes 🧅</li>
+                    <li>2 cdas. jengibre cortado en rodajas 🫚</li>
+                    <li>2 u. dientes ajo aplastados 🧄</li>
+                    <li>1 u. rama puerro cortada en trozos  🥬</li>
+                    <li>2 u. patas pollo con hueso 🍗</li>
+                    <li>1 taza salsa soja 🫙</li>
+                    <li>1/2 taza mirin 🍶</li>
+                    <li>300 gr. panceta ahumada 🥓</li>
+                    <li>4 u. huevos 🥚</li>
+                    <li>300 gr. fideos ramen 🍜</li>
+                    <li>1/4 taza cebolleta picada 🧅</li>
+                    <li>1/2 taza hongos shitake 🍄‍🟫</li>
+                    <li>1/4 taza zanahoria cortada en tiras finitas 🥕</li>
+                    <li>c/n semillas sésamo 🫘</li>
+                </ul>
+                <h3>Preparación:</h3>
+                <ol>
+                    <li>En una olla colocar la zanahoria, la cebolla, el jengibre, el ajo, el puerro y el pollo. Tapar y hervir durante 1 hora</li>
+                    <li>Hacerle cortes a la panceta y dorarla en una sartén caliente. Añadir la panceta al caldo y seguir cocinando 30 minutos mas</li>
+                    <li>Hervir los huevos en agua con vinagre durante 6 minutos. Una vez pasado el tiempo de cocción pasarlos a un bowl con agua fría y hielo</li>
+                    <li>En otra olla colocar la salsa de soja, el mirin, el jengibre, el ajo y el puerro. Una vez que hierva retirar del fuego</li>
+                    <li>En un bowl colocar la panceta, los huevos cocidos y pelados y la salsa de soja y mirin. Marinar 30 minutos en la heladera</li>
+                    <li>Hervir los fideos de ramen</li>
+                    <li>FIletear la panceta</li>
+                    <li>Armar el ramen colocando los fideos, el caldo, la salsa de soja y mirin, la panceta, los huevos cortados al medio, la cebolleta, los hongos y la zanahoria. Decorar con semillas de sésamo</li>
+                </ol>
+            </article>
+        </section>
+        <aside>
+            <h3>¿Sabías que...?</h3>
+            <p>En Dragon Ball Super, Vegeta le prepara a Whis este ramen, el cual le gusta mucho y culpa a Bulma (esposa de vegeta) por no mostrárselo antes.</p>
+        </aside>
+        <section id="calories-section">
+            <h2>Información Nutricional</h2>
+            <table id="calories-table">
+                <thead>
+                    <tr>
+                        <th>Receta</th>
+                        <th>Calorías</th>
+                        <th>Proteínas</th>
+                        <th>Carbohidratos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>🐉Ramen de goku🐉</td>
+                        <td>1200 kcal</td>
+                        <td>60g</td>
+                        <td>45g</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="newsletter">
+            <form id="newsletter-form">
+                <h2>¡Suscríbete a nuestro foro de comidas, para próximas recetas!</h2>
+                <div>
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <br>
+                    <label for="name">Nombre: </label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <br>
+                    <label for="name">Cod. póstal: </label>
+                    <input type="text" id="cod. postal" name="cod. postal" required>
+                    </br>
+                </div>
+                <div>
+                    <br>
+                    <label for="name">Calle: </label>
+                    <input type="text" id="calle" name="calle" required>
+                </br>
+                </div>
+                <div>
+                    <br>
+                    <label for="name">Numero: </label>
+                    <input type="text" id="numero" name="numero" required>
+                </br>
+                </div>
+                <br>
+                <button type="submit" class="btn">Suscribirse</button>
+            </br>
+            </form>
+        </section>
+        <section class="social-links">
+            <a href="https://www.facebook.com/groups/elonmusk1/?locale=es_ES" class="social-icon">Facebook</a>
+            <a href="https://www.instagram.com/elonmusk__official__/reels/" class="social-icon">Instagram</a>
+            <a href="https://twitter.com/elonmusk?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="social-icon">Twitter</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 El Rincón de Hugo.</p>
+    </footer>
+</body>
+</html>
