@@ -1,0 +1,142 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+header :hover{
+    background-color: #ffffff;
+    padding: 1rem;
+
+}
+
+header {
+background-color: #d400ff;
+color: rgb(0, 0, 0);
+padding: 1rem;
+text-align: center;
+}
+
+
+
+nav {
+background-color: #d400ff;
+padding: 1rem;
+}
+
+nav ul {
+list-style: none;
+display: flex;
+justify-content: center;
+gap: 2rem;
+margin: 0;
+padding: 0;
+}
+
+nav a {
+color: rgb(0, 0, 0);
+text-decoration: none;
+font-weight: bold;
+transition: color 0.3s ease;
+}
+
+nav a:hover {
+color: #2c3e50;
+}
+
+/* Estilos por clase */
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 2rem;
+}
+
+.recipe-card {
+background-color: white;
+border-radius: 8px;
+padding: 1.5rem;
+margin-bottom: 2rem;
+box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.recipe-image {
+width: 100%;
+max-width: 600px;
+height: auto;
+display: block;
+margin: 1rem auto;
+border-radius: 8px;
+}
+
+.social-links {
+display: flex;
+gap: 1rem;
+justify-content: center;
+margin: 2rem 0;
+}
+
+.social-icon {
+font-size: 1.5rem;
+color: #2c3e50;
+transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+transform: scale(1.2);
+}
+
+/* Estilos por ID */
+#newsletter-form {
+background-color: #fff;
+padding: 2rem;
+border-radius: 8px;
+margin: 2rem 0;
+}
+
+#calories-table {
+width: 100%;
+border-collapse: collapse;
+margin: 2rem 0;
+}
+
+#calories-table th, #calories-table td {
+border: 1px solid #000000;
+padding: 8px;
+text-align: center;
+}
+
+/* Pseudoclases */
+input:focus {
+outline: 2px solid #4ecdc4;
+}
+
+.btn {
+background-color: #4500e7;
+color: white;
+border: none;
+padding: 10px 20px;
+border-radius: 4px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+background-color: #45b7af;
+}
+
+aside {
+background-color: #b13dff;
+padding: 1rem;
+border-radius: 8px;
+margin: 1rem 0;
+}
+
+footer {
+font-size: 0.5em;
+font-family: Georgia, 'Times New Roman', Times, serif;
+background-color: #2c3e50;
+color: white;
+text-align: center;
+padding: 1rem;
+margin-top: 2rem;
+}
